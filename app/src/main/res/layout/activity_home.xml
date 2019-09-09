@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baccc"
+    tools:context=".Home">
+
+  <View
+     android:id="@+id/view4"
+     android:layout_width="295dp"
+     android:layout_height="91dp"
+     android:layout_below="@+id/view3"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_marginStart="59dp"
+     android:layout_marginLeft="59dp"
+     android:layout_marginTop="50dp"
+     android:layout_marginEnd="57dp"
+     android:layout_marginRight="57dp"
+     android:background="@drawable/iconn"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+ <View
+     android:id="@+id/view3"
+     android:layout_width="271dp"
+     android:layout_height="110dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_marginStart="71dp"
+     android:layout_marginLeft="71dp"
+     android:layout_marginTop="215dp"
+     android:layout_marginEnd="68dp"
+     android:layout_marginRight="68dp"
+     android:background="@drawable/findtex"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent" />
+
+ <Button
+     android:id="@+id/button"
+     android:layout_width="252dp"
+     android:layout_height="46dp"
+     android:layout_marginStart="8dp"
+     android:layout_marginLeft="8dp"
+     android:layout_marginTop="108dp"
+     android:layout_marginEnd="8dp"
+     android:layout_marginRight="8dp"
+     android:background="@drawable/getbutt"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
